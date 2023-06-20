@@ -40,3 +40,96 @@ body{
   font-weight: var(--fw-regular);
   line-height: 1.5;
 }
+
+/* header */
+header {
+  
+  height: 110px;
+  display: flex;
+  align-items: center;
+  padding-block: 8px;
+margin-bottom: 2rem;
+  padding: 1rem;  
+  box-shadow: 0.5px 0.4px 5px  0.1px gold;
+}
+header a {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  padding: 5px 20px;
+}
+header a:hover {
+  color: gold;
+  text-decoration: none;
+}
+header .site-logo {
+  color: black;
+  margin-right:30%;
+ 
+}  
+.site-img{
+  border-radius: 10%;
+  width:4rem;
+  height: 4rem;
+  box-shadow: 0.5px 0.4px 5px  0.1px gold;
+}
+
+/* Home */
+.home-container {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46)),
+    url("./assets/Home.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 358px;
+  color: white;
+  padding: 45px;
+}
+.home-container {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+
+  border: none;
+  width: 100%;
+  margin-top: 27px;
+  cursor:auto;
+  padding-block: .75rem;
+  color: white;
+  font-weight: 700;
+  border-radius: 5px;
+  
+  transition: transform .1s ease-in-out;
+}
+.home-container a {
+  text-decoration: none;
+color: white;
+cursor: pointer;
+  padding: 8px;
+  background-color: #FF8C38;
+}
+.home-container h2 {
+  font-weight: 700;
+  font-size: 2.25rem;
+  padding: 8px;
+  line-height: 42px;
+}
+.home-container p {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 24px;
+  margin-top: 25px;
+  margin-bottom: 60px;
+  padding: 8px;
+}
+
+
+/* FOOTER */
+footer{
+  padding: 20px;
+  background-color: #35001bcd;
+  color:white;
+  margin-top: 1rem;
+  text-align: center;
+}

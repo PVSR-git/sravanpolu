@@ -1,15 +1,21 @@
 import {Routes,Route, BrowserRouter} from 'react-router-dom';
 import './App.css';
-import Header from './components/Header';
+
 import Home from './pages/Home';
 import Photos from './pages/Photos';
+
+import Layout from './components/Layout';
+import Resume from './pages/Resume';
 
 function App() {
   return (
     <BrowserRouter>
-       <Routes>
+       <Routes >
+       <Route element={<Layout />}>
           <Route  path="/" element={<Home />} />
-          <Route pathe="/photos" element={<Photos />} />
+          <Route path="/photo" element={<Photos />} />
+          <Route path="/resume" element={<Resume />} />
+          </Route>
     </Routes>
     </BrowserRouter>
    

@@ -1,20 +1,22 @@
 import React from "react";
 import { Link,NavLink } from "react-router-dom";
-
+import bgImg from '../assets/Sravan.jpg';
 export default function Header(){
     return(
-     
-        
+        <header>
+        <Link className="site-logo" to="/" >
+        <img src={bgImg} className="site-img" />
+      </Link>
                <nav>
              
         <NavLink to="/" className={({isActive})=>isActive? "active-link" : null}
         >Home</NavLink>
-         <NavLink to="/photos"
+         <NavLink to="/photo"
         className={({isActive})=>isActive? "active-link" : null}
         >Photos</NavLink>
-       {/* <NavLink to="/vans"
-        className={({isActive})=>isActive? "active-link" : null}>Vans</NavLink> */}
+       <NavLink to="/resume"
+        className={({isActive})=>isActive? "active-link" : null}>Resume</NavLink>
         </nav>
-        
+        </header>
     )
 }
