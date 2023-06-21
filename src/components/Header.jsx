@@ -1,5 +1,6 @@
 import React from "react";
 import { BsPersonCircle } from "react-icons/bs";
+
 import { Link, NavLink } from "react-router-dom";
 import bgImg from "../assets/Sravan.jpg";
 export default function Header() {

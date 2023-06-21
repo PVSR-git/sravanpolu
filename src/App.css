@@ -160,10 +160,47 @@ header .site-logo {
 }
 
 /* FOOTER */
-footer {
+.footer-content {
+  display: flex;
   padding: 20px;
   background-color: #35001bcd;
   color: white;
+  justify-content: space-between;
   margin-top: 1rem;
   text-align: center;
+}
+
+.footer-logo {
+  display: flex;
+
+  flex-direction: column;
+}
+.footer-img {
+  border-radius: 10%;
+  width: 4rem;
+  height: 4rem;
+  box-shadow: 0.5px 0.4px 5px 0.1px gold;
+}
+.phone-number {
+  display: flex;
+  color: white;
+  margin-top: 0.9rem;
+}
+.call-icon {
+  margin-top: 0.4rem;
+}
+.number {
+  text-decoration: none;
+}
+
+.mail-footer {
+  display: flex;
+  color: white;
+  margin-top: 0.9rem;
+}
+.gmail-icon {
+  margin-top: 0.4rem;
+}
+.Gmail {
+  text-decoration: none;
 }
