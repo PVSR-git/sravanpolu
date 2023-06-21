@@ -121,6 +121,43 @@ header .site-logo {
   margin-bottom: 60px;
   padding: 8px;
 }
+.login-link {
+  padding-left: 23rem;
+
+  margin-right: 0;
+}
+.login-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 14px;
+}
+.login-form input {
+  margin: 0.1rem;
+  border: none;
+  height: 1.7rem;
+  border-radius: 0.2rem;
+  background-color: #ffffff;
+}
+.login-form button {
+  margin-top: 0.2rem;
+  border: none;
+  height: 1.6rem;
+  background-color: gold;
+  color: white;
+  width: 5rem;
+}
+.login-form button:is(:hover, :focus) {
+  box-shadow: 0 0 2px 2px;
+  background-color: #ffffff;
+  border-radius: 0.2rem;
+  color: #ff8c38;
+}
 
 /* FOOTER */
 footer {
