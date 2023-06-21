@@ -9,22 +9,35 @@ export default function Footer() {
     <footer>
       <div className="footer-content">
         <ul className="summary-topic">
-          <li>Home</li>
-          <li>Photos</li>
-          <li>Resume</li>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li style={{ textDecoration: "none" }}>
+            {" "}
+            <NavLink to="/photo">Photos</NavLink>
+          </li>
+          <li>
+            <NavLink to="/resume">Resume</NavLink>
+          </li>
         </ul>
         <span>&#169; 2023 #SRAVANPOLU</span>
         <Link className="footer-logo" to="/">
           <img src={bgImg} className="footer-img" alt="Logo" />
           <div className="phone-number">
             <BiPhoneCall className="call-icon" />
-            <span className="number">: +917973943675</span>
+            <a
+              className="call-number"
+              href="callto:+917973943675"
+              target="_self"
+            >
+              : +917973943675
+            </a>
           </div>
-          <div className="mail-footer">
+          <div className="mail-footer" style={{ textDecoration: "none" }}>
             <SiGmail className="gmail-icon" />
-            <span className="Gmail" style={{ textDecoration: "none" }}>
-              : sravanpolu.me@Gmail.com
-            </span>
+            <a href="sravanpolu.me@gmail.com" target="_self">
+              : sravanpolu.me@gmail.com
+            </a>
           </div>
         </Link>
       </div>
