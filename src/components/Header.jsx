@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import { BsPersonCircle } from "react-icons/bs";
 
 import { Link, NavLink } from "react-router-dom";
 import bgImg from "../assets/Sravan.jpg";
 export default function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
   return (
     <header>
       <div className="header-items">
@@ -11,28 +16,39 @@ export default function Header() {
           <img src={bgImg} className="site-img" />
         </Link>
         <nav>
-          <NavLink
-            to="/"
-            className={({ isActive }) => (isActive ? "active-link" : null)}
-          >
-            Home
-          </NavLink>
-          <NavLink
-            to="/photo"
-            className={({ isActive }) => (isActive ? "active-link" : null)}
-          >
-            Photos
-          </NavLink>
-          <NavLink
-            to="/resume"
-            className={({ isActive }) => (isActive ? "active-link" : null)}
-          >
-            Resume
+          <div className="information-user">
+            <NavLink
+              to="/"
+              className={({ isActive }) => (isActive ? "active-link" : null)}
+            >
+              Home
+            </NavLink>
+            <NavLink
+              to="/photo"
+              className={({ isActive }) => (isActive ? "active-link" : null)}
+            >
+              Photos
+            </NavLink>
+            <NavLink
+              to="/resume"
+              onClick={toggleMenu}
+              className={({ isActive }) => (isActive ? "active-link" : null)}
+            >
+              <div className="resume-container">
+                Resume
+                {menuOpen && (
+                  <div className="resume-menu-content">
+                    <NavLink to="/single-page-resume">SPResume</NavLink>
+                    <NavLink to="/detail">Detail</NavLink>
+                  </div>
+                )}
+              </div>
+            </NavLink>
+          </div>
+          <NavLink to="login" className="login-link">
+            <BsPersonCircle className="login-icon" size={22} />
           </NavLink>
         </nav>
-        <Link to="login" className="login-link">
-          <BsPersonCircle className="login-icon" size={22} />
-        </Link>
       </div>
     </header>
   );
