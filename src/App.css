@@ -19,6 +19,7 @@ body {
 /* header */
 header {
   width: 100%;
+
   box-shadow: 0.5px 0.4px 5px 0.1px gold;
 }
 .header-items {
@@ -61,6 +62,7 @@ header a:hover {
   border-radius: 10%;
   width: 4rem;
   height: 4rem;
+  object-fit: cover;
   box-shadow: 0.5px 0.4px 5px 0.1px gold;
 }
 .site-img:hover {
@@ -124,21 +126,22 @@ header .login-link {
 }
 .resume-menu-content {
   position: absolute;
-  padding: 12px 16px;
+  margin: 0.1rem;
+  padding: 10px 14px;
   z-index: 1;
   opacity: 0;
 }
 .resume-container:hover .resume-menu-content {
   display: block;
+  background-color: black;
   opacity: 1;
 }
 .resume-menu-content a {
   display: block;
+  margin: 0;
 }
-
 .login-link {
   padding-left: 2rem;
-
   margin-right: auto;
 }
 .login-container {
@@ -162,6 +165,7 @@ header .login-link {
 .login-form button {
   margin-top: 0.2rem;
   border: none;
+  border-radius: 2px;
   height: 1.6rem;
   background-color: gold;
   color: white;
@@ -205,6 +209,7 @@ header .login-link {
 }
 .footer-img {
   border-radius: 10%;
+  object-fit: cover;
   width: 4rem;
   height: 4rem;
   box-shadow: 0.5px 0.4px 5px 0.1px gold;
