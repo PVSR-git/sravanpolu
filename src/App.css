@@ -90,6 +90,7 @@ header .login-link {
   color: white;
   cursor: pointer;
   padding: 8px;
+  border-radius: 5px;
   background-color: #ff8c38;
 }
 .home-container h2 {
@@ -153,12 +154,14 @@ header .login-link {
   margin-top: 1rem;
   text-align: center;
 }
-.summary-topic {
+.summary-topic li {
+  margin-bottom: 1rem;
   list-style: none;
 }
 
 .summary-topic a {
   list-style: none;
+  padding-bottom: 10px;
   list-style-type: disc;
   color: #ffffff;
   text-decoration: none;

@@ -12,8 +12,7 @@ export default function Footer() {
           <li>
             <Link to="/">Home</Link>
           </li>
-          <li style={{ textDecoration: "none" }}>
-            {" "}
+          <li>
             <NavLink to="/photo">Photos</NavLink>
           </li>
           <li>
