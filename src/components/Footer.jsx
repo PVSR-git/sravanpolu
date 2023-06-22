@@ -35,7 +35,7 @@ export default function Footer() {
           <div className="mail-footer" style={{ textDecoration: "none" }}>
             <SiGmail className="gmail-icon" />
             <a href="sravanpolu.me@gmail.com" target="_self">
-              : sravanpolu.me@gmail.com
+              :sravanpolu.me@gmail.com
             </a>
           </div>
         </Link>
