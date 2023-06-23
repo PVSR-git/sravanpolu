@@ -8,6 +8,15 @@ import sravan6 from "D:/Sandbox Projects/sravanpolu/src/assets/images/sravan6.pn
 import sravan7 from "D:/Sandbox Projects/sravanpolu/src/assets/images/sravan7.png";
 import sravan8 from "D:/Sandbox Projects/sravanpolu/src/assets/images/sravan8.png";
 import sravan9 from "D:/Sandbox Projects/sravanpolu/src/assets/images/sravan9.png";
+import sravan10 from "D:/Sandbox Projects/sravanpolu/src/assets/images/sravan10.png";
+import sravan11 from "D:/Sandbox Projects/sravanpolu/src/assets/images/sravan11.png";
+import sravan12 from "D:/Sandbox Projects/sravanpolu/src/assets/images/sravan12.png";
+import sravan13 from "D:/Sandbox Projects/sravanpolu/src/assets/images/sravan13.png";
+import sravan14 from "D:/Sandbox Projects/sravanpolu/src/assets/images/sravan14.png";
+import sravan15 from "D:/Sandbox Projects/sravanpolu/src/assets/images/sravan15.png";
+import sravan16 from "D:/Sandbox Projects/sravanpolu/src/assets/images/sravan16.png";
+import sravan17 from "D:/Sandbox Projects/sravanpolu/src/assets/images/sravan17.png";
+import sravan18 from "D:/Sandbox Projects/sravanpolu/src/assets/images/sravan18.png";
 createServer({
   models: {
     photos: Model,
@@ -64,46 +73,92 @@ createServer({
       type: "luxury",
       hostId: "456",
     });
-    server.create("photo", {
-      id: "6",
-      name: "sravan6",
-      price: 100,
-      description:
-        "Reliable Red is a van that was made for travelling. The inside is comfortable and cozy, with plenty of space to stretch out in. There's a small kitchen, so you can cook if you need to. You'll feel like home as soon as you step out of it.",
-      imageUrl: sravan6,
-      type: "luxury",
-      hostId: "456",
-    });
-    server.create("photo", {
-      id: "7",
-      name: "sravan7",
-      price: 100,
-      description:
-        "Reliable Red is a van that was made for travelling. The inside is comfortable and cozy, with plenty of space to stretch out in. There's a small kitchen, so you can cook if you need to. You'll feel like home as soon as you step out of it.",
-      imageUrl: sravan7,
-      type: "luxury",
-      hostId: "456",
-    });
-    server.create("photo", {
-      id: "8",
-      name: "sravan8",
-      price: 100,
-      description:
-        "Reliable Red is a van that was made for travelling. The inside is comfortable and cozy, with plenty of space to stretch out in. There's a small kitchen, so you can cook if you need to. You'll feel like home as soon as you step out of it.",
-      imageUrl: sravan8,
-      type: "luxury",
-      hostId: "456",
-    });
-    server.create("photo", {
-      id: "9",
-      name: "sravan9",
-      price: 100,
-      description:
-        "Reliable Red is a van that was made for travelling. The inside is comfortable and cozy, with plenty of space to stretch out in. There's a small kitchen, so you can cook if you need to. You'll feel like home as soon as you step out of it.",
-      imageUrl: sravan8,
-      type: "luxury",
-      hostId: "456",
-    });
+    // server.create("photo", {
+    //   id: "6",
+    //   name: "sravan6",
+
+    //   imageUrl: sravan6,
+    //   type: "luxury",
+    //   hostId: "456",
+    // });
+    // server.create("photo", {
+    //   id: "7",
+    //   name: "sravan7",
+    //   imageUrl: sravan7,
+    //   type: "luxury",
+    //   hostId: "456",
+    // });
+    // server.create("photo", {
+    //   id: "8",
+    //   name: "sravan8",
+
+    //   imageUrl: sravan8,
+    //   type: "luxury",
+    //   hostId: "456",
+    // });
+    // server.create("photo", {
+    //   id: "9",
+    //   name: "sravan9",
+
+    //   imageUrl: sravan9,
+    //   type: "luxury",
+    //   hostId: "456",
+    // });
+    // server.create("photo", {
+    //   id: "10",
+    //   name: "sravan10",
+
+    //   imageUrl: sravan10,
+    // });
+    // server.create("photo", {
+    //   id: "11",
+    //   name: "sravan11",
+    //   imageUrl: sravan11,
+    // });
+    // server.create("photo", {
+    //   id: "12",
+    //   name: "sravan12",
+
+    //   imageUrl: sravan12,
+    // });
+    // server.create("photo", {
+    //   id: "13",
+    //   name: "sravan13",
+
+    //   imageUrl: sravan13,
+    //   type: "luxury",
+    //   hostId: "456",
+    // });
+    // server.create("photo", {
+    //   id: "14",
+    //   name: "sravan14",
+    //   imageUrl: sravan14,
+    // });
+    // server.create("photo", {
+    //   id: "15",
+    //   name: "sravan15",
+
+    //   imageUrl: sravan15,
+    // });
+    // server.create("photo", {
+    //   id: "16",
+    //   name: "sravan16",
+
+    //   imageUrl: sravan16,
+    //   type: "luxury",
+    //   hostId: "456",
+    // });
+    // server.create("photo", {
+    //   id: "17",
+    //   name: "sravan17",
+    //   imageUrl: sravan17,
+    // });
+    // server.create("photo", {
+    //   id: "18",
+    //   name: "sravan18",
+
+    //   imageUrl: sravan18,
+    // });
   },
 
   routes() {
