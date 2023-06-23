@@ -24,7 +24,7 @@ export default function Header() {
               Home
             </NavLink>
             <NavLink
-              to="/photo"
+              to="/photos"
               className={({ isActive }) => (isActive ? "active-link" : null)}
             >
               Photos

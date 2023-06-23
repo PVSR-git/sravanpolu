@@ -20,8 +20,10 @@ export default function Footer() {
           </li>
         </ul>
         <span>&#169; 2023 #SRAVANPOLU</span>
-        <Link className="footer-logo" to="/">
-          <img src={bgImg} className="footer-img" alt="Logo" />
+        <div className="footer-logo">
+          <Link to="/">
+            <img src={bgImg} className="footer-img" alt="Logo" />
+          </Link>
           <div className="phone-number">
             <BiPhoneCall className="call-icon" />
             <a
@@ -34,11 +36,11 @@ export default function Footer() {
           </div>
           <div className="mail-footer" style={{ textDecoration: "none" }}>
             <SiGmail className="gmail-icon" />
-            <a href="sravanpolu.me@gmail.com" target="_self">
+            <a href="mailto:sravanpolu.me@gmail.com" target="_self">
               :sravanpolu.me@gmail.com
             </a>
           </div>
-        </Link>
+        </div>
       </div>
     </footer>
   );
