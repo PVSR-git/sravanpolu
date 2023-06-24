@@ -26,5 +26,10 @@ export default function Photos() {
     );
   });
 
-  return <div className="photo-list">{photoElements}</div>;
+  return (
+    <div className="photo-container">
+      {/* <h3>otional ophotos</h3> */}
+      <div className="photo-list">{photoElements}</div>
+    </div>
+  );
 }

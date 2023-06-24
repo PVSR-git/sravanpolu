@@ -159,23 +159,30 @@ header .login-link {
 }
 
 /* PHOTOS */
+.photo-container {
+  background: lightpink;
+  display: flex;
+}
 .photo-list {
   display: flex;
   margin: 10%;
+  background-color: #ffffff;
+  border-radius: 1rem;
   flex-wrap: wrap;
-  padding: 5px 4px;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 .photo-sravan {
   max-width: 25%;
   padding: 5px 4px;
   transition: scale 450ms;
-  box-shadow: 2.5rem 2.7rem 2rem #00ff91ce;
 }
 .photo-sravan img {
   margin-top: 8px;
   object-fit: cover;
   border-radius: 1rem;
   vertical-align: middle;
+  box-shadow: 2.5rem 2.7rem 2rem lightskyblue;
   width: 100%;
 }
 .photo-sravan img:hover {
@@ -262,6 +269,18 @@ header .login-link {
   justify-content: space-between;
   margin-top: 1rem;
   text-align: center;
+}
+@media screen and (max-width: 800px) {
+  .footer-content {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .footer-content {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
 .summary-topic li {
   margin-bottom: 1rem;

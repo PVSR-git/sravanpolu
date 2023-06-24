@@ -13,7 +13,7 @@ export default function Footer() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <NavLink to="/photo">Photos</NavLink>
+            <NavLink to="/photos">Photos</NavLink>
           </li>
           <li>
             <NavLink to="/resume">Resume</NavLink>
@@ -26,11 +26,7 @@ export default function Footer() {
           </Link>
           <div className="phone-number">
             <BiPhoneCall className="call-icon" />
-            <a
-              className="call-number"
-              href="callto:+917973943675"
-              target="_self"
-            >
+            <a className="call-number" href="tel:+917973943675" target="_self">
               : +917973943675
             </a>
           </div>
