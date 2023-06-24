@@ -22,6 +22,7 @@ header {
 
   box-shadow: 0.5px 0.4px 5px 0.1px gold;
 }
+
 .header-items {
   height: 110px;
   display: flex;
@@ -31,11 +32,36 @@ header {
   margin-bottom: 2rem;
   padding: 1rem;
 }
+@media screen and (max-width: 800px) {
+  .header-items {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .header-items {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
 nav {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+}
+@media screen and (max-width: 800px) {
+  nav {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  nav {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
 nav a {
   margin-left: 0;
@@ -52,6 +78,18 @@ nav a {
   align-items: center;
   margin-right: 50%;
   justify-content: space-between;
+}
+@media screen and (max-width: 800px) {
+  .information-user {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .information-user {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
 header a:hover {
   color: gold;
@@ -122,40 +160,39 @@ header .login-link {
 
 /* PHOTOS */
 .photo-list {
-  display: grid;
+  display: flex;
   margin: 10%;
-  gap: 1.4rem;
-  grid-template-columns: 64px 214px 214px 64px 214px;
+  flex-wrap: wrap;
+  padding: 5px 4px;
 }
-.photo-sravan > div:nth-child(1) {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 3;
+.photo-sravan {
+  max-width: 25%;
+  padding: 5px 4px;
+  transition: scale 450ms;
+  box-shadow: 2.5rem 2.7rem 2rem #00ff91ce;
 }
-.photo-sravan > div:nth-child(2) {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
+.photo-sravan img {
+  margin-top: 8px;
+  object-fit: cover;
+  border-radius: 1rem;
+  vertical-align: middle;
+  width: 100%;
 }
-.photo-sravan > div:nth-child(3) {
-  grid-column-start: 4;
-  grid-column-end: 6;
-  grid-row-start: 2;
-  grid-row-end: 3;
+.photo-sravan img:hover {
+  scale: 1.5;
 }
-.photo-sravan > div:nth-child(4) {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 3;
-  grid-row-end: 5;
+
+@media screen and (max-width: 800px) {
+  .photo-sravan {
+    flex: 50%;
+    max-width: 50%;
+  }
 }
-.photo-sravan > div:nth-child(5) {
-  grid-column-start: 3;
-  grid-column-end: 5;
-  grid-row-start: 3;
-  grid-row-end: 5;
+@media screen and (max-width: 600px) {
+  .photo-sravan {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
 
 /* Resume */

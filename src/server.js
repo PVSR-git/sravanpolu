@@ -73,92 +73,92 @@ createServer({
       type: "luxury",
       hostId: "456",
     });
-    // server.create("photo", {
-    //   id: "6",
-    //   name: "sravan6",
+    server.create("photo", {
+      id: "6",
+      name: "sravan6",
 
-    //   imageUrl: sravan6,
-    //   type: "luxury",
-    //   hostId: "456",
-    // });
-    // server.create("photo", {
-    //   id: "7",
-    //   name: "sravan7",
-    //   imageUrl: sravan7,
-    //   type: "luxury",
-    //   hostId: "456",
-    // });
-    // server.create("photo", {
-    //   id: "8",
-    //   name: "sravan8",
+      imageUrl: sravan6,
+      type: "luxury",
+      hostId: "456",
+    });
+    server.create("photo", {
+      id: "7",
+      name: "sravan7",
+      imageUrl: sravan7,
+      type: "luxury",
+      hostId: "456",
+    });
+    server.create("photo", {
+      id: "8",
+      name: "sravan8",
 
-    //   imageUrl: sravan8,
-    //   type: "luxury",
-    //   hostId: "456",
-    // });
-    // server.create("photo", {
-    //   id: "9",
-    //   name: "sravan9",
+      imageUrl: sravan8,
+      type: "luxury",
+      hostId: "456",
+    });
+    server.create("photo", {
+      id: "9",
+      name: "sravan9",
 
-    //   imageUrl: sravan9,
-    //   type: "luxury",
-    //   hostId: "456",
-    // });
-    // server.create("photo", {
-    //   id: "10",
-    //   name: "sravan10",
+      imageUrl: sravan9,
+      type: "luxury",
+      hostId: "456",
+    });
+    server.create("photo", {
+      id: "10",
+      name: "sravan10",
 
-    //   imageUrl: sravan10,
-    // });
-    // server.create("photo", {
-    //   id: "11",
-    //   name: "sravan11",
-    //   imageUrl: sravan11,
-    // });
-    // server.create("photo", {
-    //   id: "12",
-    //   name: "sravan12",
+      imageUrl: sravan10,
+    });
+    server.create("photo", {
+      id: "11",
+      name: "sravan11",
+      imageUrl: sravan11,
+    });
+    server.create("photo", {
+      id: "12",
+      name: "sravan12",
 
-    //   imageUrl: sravan12,
-    // });
-    // server.create("photo", {
-    //   id: "13",
-    //   name: "sravan13",
+      imageUrl: sravan12,
+    });
+    server.create("photo", {
+      id: "13",
+      name: "sravan13",
 
-    //   imageUrl: sravan13,
-    //   type: "luxury",
-    //   hostId: "456",
-    // });
-    // server.create("photo", {
-    //   id: "14",
-    //   name: "sravan14",
-    //   imageUrl: sravan14,
-    // });
-    // server.create("photo", {
-    //   id: "15",
-    //   name: "sravan15",
+      imageUrl: sravan13,
+      type: "luxury",
+      hostId: "456",
+    });
+    server.create("photo", {
+      id: "14",
+      name: "sravan14",
+      imageUrl: sravan14,
+    });
+    server.create("photo", {
+      id: "15",
+      name: "sravan15",
 
-    //   imageUrl: sravan15,
-    // });
-    // server.create("photo", {
-    //   id: "16",
-    //   name: "sravan16",
+      imageUrl: sravan15,
+    });
+    server.create("photo", {
+      id: "16",
+      name: "sravan16",
 
-    //   imageUrl: sravan16,
-    //   type: "luxury",
-    //   hostId: "456",
-    // });
-    // server.create("photo", {
-    //   id: "17",
-    //   name: "sravan17",
-    //   imageUrl: sravan17,
-    // });
-    // server.create("photo", {
-    //   id: "18",
-    //   name: "sravan18",
+      imageUrl: sravan16,
+      type: "luxury",
+      hostId: "456",
+    });
+    server.create("photo", {
+      id: "17",
+      name: "sravan17",
+      imageUrl: sravan17,
+    });
+    server.create("photo", {
+      id: "18",
+      name: "sravan18",
 
-    //   imageUrl: sravan18,
-    // });
+      imageUrl: sravan18,
+    });
   },
 
   routes() {
