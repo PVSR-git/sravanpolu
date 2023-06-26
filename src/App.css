@@ -31,6 +31,7 @@ html {
   color-scheme: dark;
 }
 body {
+  width: 100%;
   margin: 0;
   color: var(--clr-neutral-100);
   font-family: var(--ff-base);
@@ -142,6 +143,7 @@ header .login-link {
   -o-background-size: cover;
   background-size: cover;
   min-height: 358px;
+
   color: white;
   padding: 45px;
 }
@@ -250,11 +252,11 @@ header .login-link {
 }
 
 /* Detail */
-.detail-flex {
+.detail-resume-grid {
   width: 100%;
   display: grid;
 }
-aside {
+.detail-resume-aside {
   margin: 1rem;
   grid-column: 1;
   align-self: stretch;
@@ -291,7 +293,7 @@ aside {
   aspect-ratio: 1;
   border-radius: 50%;
 }
-main {
+.detail-resume-main {
   grid-column: 2;
   width: 75%;
 }

@@ -2,11 +2,11 @@ import React from "react";
 
 export default function Detail() {
   return (
-    <div className="detail-flex">
-      <main>
+    <div className="detail-resume-grid">
+      <main className="detail-resume-main">
         <h1>MyResume</h1>
       </main>
-      <aside>
+      <aside className="detail-resume-aside">
         <h2 className="visually-hidden">myskills</h2>
         <ul className="icon-list" role="list">
           <li>
