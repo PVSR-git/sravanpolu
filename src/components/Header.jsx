@@ -16,6 +16,9 @@ export default function Header() {
         <Link className="site-logo" to="/">
           <img src={bgImg} className="site-img" />
         </Link>
+        {/* <button className="menu-bar">
+          <img src="/svg/menu-bar.svg" alt="Menu" />
+        </button> */}
         <nav>
           <div className="information-user">
             <NavLink
@@ -46,6 +49,7 @@ export default function Header() {
               </div>
             </NavLink>
           </div>
+
           <NavLink to="login" className="login-link">
             <BsPersonCircle className="login-icon" size={22} />
           </NavLink>
