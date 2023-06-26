@@ -3,6 +3,7 @@ import { BsPersonCircle } from "react-icons/bs";
 
 import { Link, NavLink } from "react-router-dom";
 import bgImg from "../assets/Sravan.jpg";
+import Detail from "../pages/Detail";
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 

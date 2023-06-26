@@ -8,6 +8,8 @@ import Layout from "./components/Layout";
 import Resume from "./pages/Resume";
 import Login from "./pages/Login";
 import "./server";
+import SPResume from "./pages/SPResume";
+import Detail from "./pages/Detail";
 
 function App() {
   return (
@@ -18,6 +20,9 @@ function App() {
           <Route path="/photos" element={<Photos />} />
 
           <Route path="/resume" element={<Resume />} />
+          <Route path="/resume" element={<SPResume />} />
+          <Route path="/detail" element={<Detail />} />
+
           <Route path="/login" element={<Login />} />
         </Route>
       </Routes>
