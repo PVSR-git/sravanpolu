@@ -16,7 +16,7 @@ export default function Photos() {
   console.log(photos);
 
   const photoElements = photos.map((photo) => {
-    const width = photo.id % 2 === 0 ? 400 : 300;
+    const width = 270; //photo.id % 2 === 0 ? 300 : 300;
     const height = photo.id % 2 === 0 ? 300 : 200;
 
     return (
@@ -28,7 +28,7 @@ export default function Photos() {
 
   return (
     <div className="photo-container">
-      {/* <h3>otional ophotos</h3> */}
+      <h3>personal photos</h3>
       <div className="photo-list">{photoElements}</div>
     </div>
   );
