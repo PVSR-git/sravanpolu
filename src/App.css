@@ -218,6 +218,7 @@ header .login-link {
 
 .photo-sravan img {
   transition: 2s;
+  object-fit: cover;
   border-radius: 1rem;
 }
 .photo-sravan img:hover {
@@ -294,7 +295,7 @@ header .login-link {
   list-style: none;
   display: grid;
   align-content: start;
-  gap: 2rem;
+  gap: var(--fs-200);
 }
 .icon-list > li {
   position: relative;
@@ -357,7 +358,61 @@ header .login-link {
 }
 .project-info {
   display: flex;
+  align-items: center;
+  margin: 1rem;
   justify-content: space-between;
+}
+.project-demo {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-demo a:hover {
+  text-decoration: none;
+  color: hsla(0, 0%, 100%, 1);
+}
+.grid-demo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.animation-demo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.animation-demo > .project-link {
+  margin-left: 9%;
+}
+.js-demo {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.react-demo {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.bootStrap-demo {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.full-stack {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
 .login-link {
   padding-left: 2rem;
