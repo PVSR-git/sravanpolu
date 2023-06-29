@@ -11,38 +11,38 @@ export default function Detail() {
         </p>
         <div className="course-experience">
           <div className="course">
-            <p className="courseName">CSS</p>
-            <div className="job-info">
+            <h1 className="courseName">CSS</h1>
+            <div className="project-info">
               <h2 className="role">projects</h2>
-              <span className="company"> BCDPROJECT</span>
+              <span className="project-link"> BCDPROJECT</span>
             </div>
           </div>
           <div className="course">
-            <p className="courseName">JS</p>
-            <div className="job-info">
+            <h1 className="courseName">JS</h1>
+            <div className="project-info">
               <h2 className="role">projects</h2>
-              <span className="company"> BCDPROJECT</span>
+              <span className="project-link"> BCDPROJECT</span>
             </div>
           </div>
           <div className="course">
-            <p className="courseName">HTML</p>
-            <div className="job-info">
+            <h1 className="courseName">HTML</h1>
+            <div className="project-info">
               <h2 className="role">projects</h2>
-              <span className="company"> BCDPROJECT</span>
+              <span className="project-link"> BCDPROJECT</span>
             </div>
           </div>
           <div className="course">
-            <p className="courseName">React</p>
-            <div className="job-info">
+            <h1 className="courseName">React</h1>
+            <div className="project-info">
               <h2 className="role">projects</h2>
-              <span className="company"> BCDPROJECT</span>
+              <span className="project-link"> BCDPROJECT</span>
             </div>
           </div>
           <div className="course">
-            <p className="courseName">BootStap</p>
-            <div className="job-info">
+            <h1 className="courseName">BootStap</h1>
+            <div className="project-info">
               <h2 className="role">projects</h2>
-              <span className="company"> BCDPROJECT</span>
+              <span className="project-link"> BCDPROJECT</span>
             </div>
           </div>
         </div>
