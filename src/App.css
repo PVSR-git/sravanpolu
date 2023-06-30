@@ -372,6 +372,13 @@ header .login-link {
   text-decoration: none;
   color: hsla(0, 0%, 100%, 1);
 }
+
+.figma {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
 .grid-demo {
   display: flex;
   flex-direction: row;

@@ -129,13 +129,29 @@ export default function Detail() {
             Figma, designers can create presentation decks to showcase their
             designs and explain their design decisions
           </p>
-          <a
-            className="project-linke"
-            href="https://www.figma.com/file/lp83mW7CwAFOtedPtuLdW4/Untitled?type=design&node-id=0-1&mode=design&t=qmSmCeDw3VKGmSkN-0"
-            target="blank"
-          >
-            Figma-Example
-          </a>
+          <div className="figma">
+            <a
+              className="project-linke"
+              href="https://www.figma.com/file/lp83mW7CwAFOtedPtuLdW4/Untitled?type=design&node-id=0-1&mode=design&t=qmSmCeDw3VKGmSkN-0"
+              target="blank"
+            >
+              Figma-Example-1
+            </a>
+            <a
+              className="project-linke"
+              href="https://www.figma.com/file/1pvNgNNikF0eCKXL7C0DUl/Demo2?type=design&node-id=0-1&mode=design&t=ctZzgeHc87PJ4G7x-0"
+              target="blank"
+            >
+              Figma-Example-2
+            </a>
+            <a
+              className="project-linke"
+              href="https://www.figma.com/file/jVrwlY6koeeYflEUwbxDNi/Instagram-Desktop?type=design&node-id=0-1&mode=design&t=vw5co3ZXqHebcA6o-0"
+              target="blank"
+            >
+              Figma-Example-3
+            </a>
+          </div>
         </div>
       </main>
       <aside className="detail-resume-aside">
