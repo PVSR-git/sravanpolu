@@ -20,7 +20,7 @@ function App() {
           <Route path="/photos" element={<Photos />} />
 
           <Route path="/resume" element={<Resume />} />
-          <Route path="/resume" element={<SPResume />} />
+          <Route path="/single-page-resume" element={<SPResume />} />
           <Route path="/detail" element={<Detail />} />
 
           <Route path="/login" element={<Login />} />

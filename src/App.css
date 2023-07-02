@@ -379,6 +379,92 @@ header .login-link {
   gap: 0.5rem;
 }
 
+/* single page resume */
+.single-page-resume-grid {
+  display: grid;
+  justify-content: center;
+  gap: 5vw;
+  grid-auto-flow: dense;
+}
+.single-resume-main {
+  grid-column: 3;
+  width: calc(100vw - 25rem - 5vw);
+  background-color: #ffffff;
+  color: black;
+}
+.single-resume-aside {
+  margin-top: 0.5rem;
+  margin: 1rem;
+  padding: 1rem;
+  grid-column: 2;
+  background-color: #264653;
+}
+.My-info {
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+}
+.My-info img {
+  border-radius: 50%;
+  align-items: center;
+}
+.my-detail {
+  display: flex;
+  flex-direction: column;
+}
+.phone-number1 {
+  display: flex;
+  color: white;
+  font-weight: 700;
+  margin-top: 0.9rem;
+}
+.call-icon1 {
+  margin-top: 0.4rem;
+}
+.phone-number1 a,
+.phone-number1 a:link,
+.phone-number1 a:visited {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+.phone-number1 a:hover {
+  color: #ffc8dd;
+}
+.mail {
+  display: flex;
+  color: white;
+  font-weight: 700;
+  margin-top: 0.9rem;
+}
+.gmail-icon1 {
+  margin-top: 0.4rem;
+}
+.mail a,
+.mail a:link,
+.mail a:visited {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+.mail a:hover {
+  color: #ffc8dd;
+}
+.skill-info {
+  display: flex;
+}
+.skill-name h3 {
+  border-bottom: 1px solid white;
+}
+.language-info {
+  display: flex;
+}
+.language-name h3 {
+  border-bottom: 1px solid white;
+}
+
 .grid-demo {
   display: flex;
   flex-direction: row;
