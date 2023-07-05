@@ -8,22 +8,22 @@ import {
   useActionData,
 } from "react-router-dom";
 
-// export function loader({ request }) {
-//   return new URL(request.url).searchParams.get("message");
-// }
-// export async function action({ request }) {
-//   const formData = await request.formData();
-//   const password = formData.get("password");
-//   const email = formData.get("email");
-//   try {
-//     const data = await loginUser({ email, password });
-//     localStorage.setItem("loggedin", true);
+export function loader({ request }) {
+  return new URL(request.url).searchParams.get("message");
+}
+export async function action({ request }) {
+  const formData = await request.formData();
+  const password = formData.get("password");
+  const email = formData.get("email");
+  try {
+    const data = await loginUser({ email, password });
+    localStorage.setItem("loggedin", true);
 
-//     return redirect("/host");
-//   } catch (err) {
-//     return err.message;
-//   }
-// }
+    return redirect("/photos");
+  } catch (err) {
+    return err.message;
+  }
+}
 
 export default function Login() {
   const [loginFormData, setLoginFormData] = React.useState({
@@ -42,7 +42,7 @@ export default function Login() {
     setError(null);
     loginUser(loginFormData)
       .then((data) => {
-        navigate("/about", { replace: true });
+        navigate("/home", { replace: true });
       })
       // .catch(err=>setError(err))
       .finally(() => setStatus("idle"));

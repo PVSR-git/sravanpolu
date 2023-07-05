@@ -115,7 +115,7 @@ export default function Detail() {
         <div className="full-stack">
           <h3>FullProject</h3>
           <a
-            href="https://van-life2.netlify.app/vans"
+            href="https://van-life2.netlify.app/"
             className="project-link"
             target="_blank"
           >

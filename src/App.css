@@ -528,6 +528,7 @@ header .login-link {
   height: 1.7rem;
   border-radius: 0.2rem;
   background-color: #ffffff;
+  color: black;
 }
 .login-form button {
   margin-top: 0.2rem;

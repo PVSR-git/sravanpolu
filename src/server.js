@@ -20,6 +20,7 @@ import sravan18 from "D:/Sandbox Projects/sravanpolu/src/assets/images/sravan18.
 createServer({
   models: {
     photos: Model,
+    user: Model, // Add this line to define the "user" model
   },
 
   seeds(server) {
@@ -159,6 +160,12 @@ createServer({
 
       imageUrl: sravan18,
     });
+    server.create("user", {
+      id: "123",
+      email: "skr@gmail.com",
+      password: "abc@1",
+      name: "SravanKumar",
+    });
   },
 
   routes() {
@@ -169,9 +176,23 @@ createServer({
       return schema.photos.all();
     });
 
-    this.get("/vans/:id", (schema, request) => {
+    this.get("/photos/:id", (schema, request) => {
       const id = request.params.id;
-      return schema.vans.find(id);
+      return schema.photos.find(id);
+    });
+    this.post("/login", (schema, request) => {
+      const { email, password } = JSON.parse(request.requestBody);
+      // This is an extremely naive version of authentication. Please don't
+      // do this in the real world, and never save raw text passwords
+      // in your database 😇
+      const foundUser = schema.users.findBy({ email, password });
+      if (!foundUser) {
+        return new Response(
+          401,
+          {},
+          { message: "No user with those credentials found!" }
+        );
+      }
     });
   },
 });
