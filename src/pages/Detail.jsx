@@ -98,7 +98,7 @@ export default function Detail() {
               <h2 className="role">projects:</h2>
               <div className="project-demo">
                 <div className="bootStrap-demo">
-                  <h3>CardDemo</h3>
+                  <h3>CardDemo:</h3>
                   <a
                     href="https://jsfiddle.net/pvskr/pnfjt029/20/"
                     className="project-link"
