@@ -398,7 +398,7 @@ header .login-link {
 .single-resume-main {
   grid-column: 3;
   width: calc(100vw - 25rem - 5vw);
-  background-color: #ffffff;
+  background-color: #7bdff2;
   color: black;
 }
 .single-resume-aside {
