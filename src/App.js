@@ -19,6 +19,8 @@ import Login, {
 import "./server";
 import SPResume from "./pages/SPResume";
 import Detail from "./pages/Detail";
+import Error from "./components/Error";
+import NotFound from "./components/NotFound";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -36,6 +38,7 @@ const router = createBrowserRouter(
         loader={loginLoader}
         action={loginAction}
       />
+      <Route path="*" element={<NotFound />} />
     </Route>
   )
 );

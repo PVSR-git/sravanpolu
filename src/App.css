@@ -650,3 +650,22 @@ header .login-link {
 .mail-footer a:hover {
   color: #264653;
 }
+
+.not-found-class {
+  padding: 1.5rem;
+}
+.not-found {
+  text-align: center;
+}
+.not-found-class a {
+  padding: 0.5rem;
+  justify-content: center;
+  background-color: gold;
+  color: black;
+  border-radius: 2px;
+  margin: 40%;
+  text-decoration: none;
+}
+.not-found-class a:hover {
+  background-color: #ff6b6b;
+}
