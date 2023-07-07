@@ -1,6 +1,7 @@
 import React from "react";
 import { BiPhoneCall } from "react-icons/bi";
 import { SiGmail } from "react-icons/si";
+import { AiFillLinkedin } from "react-icons/ai";
 import bgImg from "../assets/Sravan.png";
 export default function SPResume() {
   return (
@@ -28,6 +29,12 @@ export default function SPResume() {
               <SiGmail className="gmail-icon1" />
               <a href="mailto:sravanpolu.me@gmail.com" target="_self">
                 :sravanpolu.me@gmail.com
+              </a>
+            </div>
+            <div className="linked-in1" style={{ textDecoration: "none" }}>
+              <AiFillLinkedin className="linked-in-icon1" />
+              <a href="https://www.linkedin.com/in/SravanPolu" target="_blank">
+                :linkedin.com/in/SravanPolu
               </a>
             </div>
           </div>
