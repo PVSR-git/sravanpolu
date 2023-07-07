@@ -461,6 +461,28 @@ header .login-link {
 .mail a:hover {
   color: #ffc8dd;
 }
+.linked-in1 {
+  display: flex;
+
+  color: white;
+  font-weight: 700;
+  margin-top: 0.9rem;
+}
+.linked-in-icon1 {
+  margin-top: 0.4rem;
+}
+.linked-in1 a,
+.linked-in1 a:link,
+.linked-in1 a:visited {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+.linked-in1 a:hover {
+  color: #ffc8dd;
+}
+
 .skill-info {
   display: flex;
 }
