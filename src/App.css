@@ -630,7 +630,7 @@ header .login-link {
 .phone-number {
   display: flex;
   color: black;
-  font-weight: 700;
+  font-weight: 200;
   margin-top: 0.9rem;
 }
 .call-icon {
@@ -648,7 +648,7 @@ header .login-link {
 .mail-footer {
   display: flex;
   color: black;
-  font-weight: 500;
+  font-weight: hsl(212, 20%, 68%);
   margin-top: 0.9rem;
 }
 .gmail-icon {
