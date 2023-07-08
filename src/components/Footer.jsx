@@ -1,6 +1,7 @@
 import React from "react";
 import { BiPhoneCall } from "react-icons/bi";
 import { SiGmail } from "react-icons/si";
+import { AiFillLinkedin } from "react-icons/ai";
 import { Link, NavLink } from "react-router-dom";
 import bgImg from "../assets/Sravan.jpg";
 
@@ -25,15 +26,21 @@ export default function Footer() {
             <img src={bgImg} className="footer-img" alt="Logo" />
           </Link>
           <div className="phone-number">
-            <BiPhoneCall className="call-icon" />
+            <BiPhoneCall className="call-icon" />:
             <a className="call-number" href="tel:+917973943675" target="_self">
-              : +917973943675
+              +917973943675
             </a>
           </div>
           <div className="mail-footer" style={{ textDecoration: "none" }}>
-            <SiGmail className="gmail-icon" />
+            <SiGmail className="gmail-icon" />:
             <a href="mailto:sravanpolu.me@gmail.com" target="_self">
-              :sravanpolu.me@gmail.com
+              sravanpolu.me@gmail.com
+            </a>
+          </div>
+          <div className="linkedin-footer">
+            <AiFillLinkedin className="linkedin-footer-icon" />:
+            <a href="https://www.linkedin.com/in/SravanPolu" target="_blank">
+              linkedin.com/in/SravanPolu
             </a>
           </div>
         </div>

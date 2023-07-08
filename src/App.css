@@ -589,23 +589,13 @@ header .login-link {
   font-weight: 700;
   justify-content: space-between;
   margin-top: 1rem;
-  text-align: center;
+
+  font-family: sans-serif;
 }
 .footer-content span {
   font-family: "Times New Roman", Times, serif;
 }
-@media screen and (max-width: 800px) {
-  .footer-content {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-@media screen and (max-width: 600px) {
-  .footer-content {
-    flex: 100%;
-    max-width: 100%;
-  }
-}
+
 .summary-topic li {
   margin-bottom: 1rem;
   list-style: none;
@@ -616,19 +606,23 @@ header .login-link {
   padding-bottom: 10px;
   list-style-type: disc;
   color: black;
-  font-weight: 700;
+  font-weight: 500;
   text-decoration: none;
 }
-.summary-topic :hover {
-  color: #264653;
+.summary-topic :hover,
+.summary-topic :focus,
+.summary-topic :active {
+  color: rgb(0, 106, 255);
 }
 .footer-logo {
   display: flex;
+  align-items: center;
   flex-direction: column;
 }
 .footer-img {
   border-radius: 10%;
   object-fit: cover;
+
   width: 4rem;
   height: 4rem;
   box-shadow: 0.5px 0.4px 5px 0.1px gold;
@@ -642,35 +636,53 @@ header .login-link {
 .call-icon {
   margin-top: 0.4rem;
 }
-.phone-number a,
-.phone-number a:link,
-.phone-number a:visited {
+.phone-number a {
   text-decoration: none;
   color: black;
-  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
 }
 .phone-number a:hover {
-  color: #264653;
+  color: rgb(0, 106, 255);
 }
 .mail-footer {
   display: flex;
   color: black;
-  font-weight: 700;
+  font-weight: 500;
   margin-top: 0.9rem;
 }
 .gmail-icon {
   margin-top: 0.4rem;
 }
-.mail-footer a,
-.mail-footer a:link,
-.mail-footer a:visited {
+.mail-footer a {
   list-style: none;
   text-decoration: none;
   color: black;
-  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
 }
 .mail-footer a:hover {
-  color: #264653;
+  color: rgb(0, 106, 255);
+}
+.linkedin-footer {
+  display: flex;
+  color: black;
+  font-weight: 600;
+  margin-top: 0.9rem;
+}
+.linkedin-footer-icon {
+  margin-top: 0.4rem;
+}
+.linkedin-footer a {
+  list-style: none;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  font-weight: 500;
+}
+
+.linkedin-footer a:hover {
+  color: rgb(0, 106, 255);
 }
 
 .not-found-class {
