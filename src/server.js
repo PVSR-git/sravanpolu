@@ -170,9 +170,11 @@ createServer({
 
   routes() {
     this.namespace = "api";
+    this.logging = true;
+    this.timing = 1000;
 
     this.get("/photos", (schema, request) => {
-      //return new Response(400, {}, {error: "Error fetching data"})
+      // return new Response(400, {}, { error: "Error fetching data" });
       return schema.photos.all();
     });
 

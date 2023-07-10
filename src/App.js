@@ -21,12 +21,20 @@ import SPResume from "./pages/SPResume";
 import Detail from "./pages/Detail";
 import Error from "./components/Error";
 import NotFound from "./components/NotFound";
+import { requireAuth } from "../../sravanpolu/src/utils";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route element={<Layout />}>
       <Route path="/" element={<Home />} />
-      <Route path="/photos" element={<Photos />} />
+      <Route
+        path="/photos"
+        element={<Photos />}
+        loader={async () => {
+          await requireAuth();
+          return null;
+        }}
+      />
 
       <Route path="/resume" element={<SPResume />} />
       <Route path="/single-page-resume" element={<SPResume />} />
