@@ -709,20 +709,19 @@ header .login-link {
   .header-items {
     display: flex;
     flex-direction: row;
-
-    align-items: flex-start;
   }
   .site-logo {
-    margin-left: 2rem;
+    margin-left: 2.5rem;
   }
 
   nav {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    margin-left: 4rem;
+    margin-top: 0;
+    margin-left: 5rem;
   }
   .information-user {
+    align-self: flex-start;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
