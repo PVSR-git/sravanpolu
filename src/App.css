@@ -703,3 +703,34 @@ header .login-link {
 .not-found-class a:hover {
   background-color: #ff6b6b;
 }
+
+/* //phone */
+@media screen and (max-width: 600px) {
+  .header-items {
+    display: flex;
+    flex-direction: row;
+
+    align-items: flex-start;
+  }
+  .site-logo {
+    margin-left: 2rem;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 4rem;
+  }
+  .information-user {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-right: 0;
+  }
+  .login-link {
+    align-self: center;
+    margin-right: 2rem;
+  }
+}
