@@ -779,11 +779,12 @@ header .login-link {
   .detail-resume-grid {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 3vw;
+    gap: 2vw;
     margin-top: 2%;
-    margin-left: 5%;
+    margin-left: 1%;
     grid-auto-flow: row;
     text-align: left;
+    width: 100%;
   }
 
   .role {
@@ -811,13 +812,12 @@ header .login-link {
     gap: 0.5rem;
     grid-auto-flow: row;
     overflow-y: scroll;
+    overflow-x: none;
     height: 300px;
-    padding: 2rem;
   }
 
   .course-experience::-webkit-scrollbar {
     width: 0.5rem;
-    margin-right: 2rem;
   }
   .course-experience::-webkit-scrollbar-track {
     background-color: var(--clr-primary-800);
@@ -829,13 +829,12 @@ header .login-link {
 
   .course {
     width: 22rem;
+    height: 18rem;
     border-radius: 0.25rem;
     background: var(--clr-primary-800);
-    padding: 2rem;
+    padding-top: 1rem;
   }
-  .course * {
-    margin: 0;
-  }
+
   .courseName {
     text-align: center;
   }
@@ -843,27 +842,31 @@ header .login-link {
   .project-info {
     display: flex;
     align-items: center;
-    margin: 0.5rem;
+    flex-direction: column;
+
     justify-content: space-between;
   }
 
   .project-demo {
-    padding: 0.5rem;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
+    gap: 0.6rem;
   }
 
   .project-demo a:hover {
     text-decoration: none;
     color: hsla(0, 0%, 100%, 1);
   }
+
   .full-stack {
     display: flex;
+    flex-direction: row;
     align-items: flex-start;
-    margin-left: -2.5rem;
+    margin-left: -4rem;
   }
   .note {
-    margin-left: 2rem;
+    margin-left: 0.5rem;
   }
   .figma {
     display: flex;

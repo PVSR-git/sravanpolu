@@ -25,7 +25,7 @@ export default function Detail() {
                     Stripedemo
                   </a>
                 </div>
-                <div className="animation-demo">
+                <div className="animation-demo cube" id="cube">
                   <h3>Animation:</h3>
                   <a
                     href="https://jsfiddle.net/pvskr/f2vat9bm/1/"
@@ -116,7 +116,7 @@ export default function Detail() {
           <h3>FullProject</h3>
           <a
             href="https://van-life2.netlify.app/"
-            className="project-link"
+            className="project-link1"
             target="_blank"
           >
             <h3> vanLife</h3>

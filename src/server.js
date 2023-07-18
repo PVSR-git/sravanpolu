@@ -89,14 +89,7 @@ createServer({
       type: "luxury",
       hostId: "456",
     });
-    server.create("photo", {
-      id: "8",
-      name: "sravan8",
 
-      imageUrl: sravan8,
-      type: "luxury",
-      hostId: "456",
-    });
     server.create("photo", {
       id: "9",
       name: "sravan9",
@@ -130,36 +123,14 @@ createServer({
       type: "luxury",
       hostId: "456",
     });
-    server.create("photo", {
-      id: "14",
-      name: "sravan14",
-      imageUrl: sravan14,
-    });
+
     server.create("photo", {
       id: "15",
       name: "sravan15",
 
       imageUrl: sravan15,
     });
-    server.create("photo", {
-      id: "16",
-      name: "sravan16",
 
-      imageUrl: sravan16,
-      type: "luxury",
-      hostId: "456",
-    });
-    server.create("photo", {
-      id: "17",
-      name: "sravan17",
-      imageUrl: sravan17,
-    });
-    server.create("photo", {
-      id: "18",
-      name: "sravan18",
-
-      imageUrl: sravan18,
-    });
     server.create("user", {
       id: "123",
       email: "skr@gmail.com",
