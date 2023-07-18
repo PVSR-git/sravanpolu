@@ -20,7 +20,7 @@ export default function Footer() {
             <NavLink to="/resume">Resume</NavLink>
           </li>
         </ul>
-        <span>&#169; 2023 #SRAVANPOLU</span>
+        <span id="footerid">&#169; 2023 #SRAVANPOLU</span>
         <div className="footer-logo">
           <Link to="/">
             <img src={bgImg} className="footer-img" alt="Logo" />

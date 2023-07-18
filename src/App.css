@@ -733,3 +733,32 @@ header .login-link {
     margin-right: 2rem;
   }
 }
+
+/* //phone  footer*/
+@media screen and (max-width: 600px) {
+  .footer-content {
+    display: flex;
+    padding: 20px;
+    background-color: #ffc8dd;
+    color: black;
+    font-weight: 700;
+    justify-content: space-between;
+    margin-top: 1rem;
+    font-family: sans-serif;
+  }
+  .footer-content span {
+    font-family: "Times New Roman", Times, serif;
+  }
+  .summary-topic {
+    display: none;
+  }
+  #footerid {
+    display: none;
+  }
+  .footer-logo {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 4rem;
+    display: block;
+  }
+}
