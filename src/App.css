@@ -862,9 +862,13 @@ header .login-link {
     align-items: flex-start;
     margin-left: -2.5rem;
   }
-  .full-stack .figma {
+  .note {
+    margin-left: 2rem;
+  }
+  .figma {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 0.5rem;
   }
 }

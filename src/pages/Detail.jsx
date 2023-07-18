@@ -127,7 +127,7 @@ export default function Detail() {
           <p>
             <h4>Design Presentations:</h4>
             Figma, designers can create presentation decks to showcase their
-            designs and explain their design decisions
+            designs and explain their design decisions.
           </p>
           <div className="figma">
             <a
