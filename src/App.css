@@ -812,12 +812,12 @@ header .login-link {
     grid-auto-flow: row;
     overflow-y: scroll;
     height: 300px;
-    padding: 1rem;
+    padding: 2rem;
   }
 
   .course-experience::-webkit-scrollbar {
-    /* height: 75rem; */
-    width: 0.55rem;
+    width: 0.5rem;
+    margin-right: 2rem;
   }
   .course-experience::-webkit-scrollbar-track {
     background-color: var(--clr-primary-800);
@@ -857,8 +857,12 @@ header .login-link {
     text-decoration: none;
     color: hsla(0, 0%, 100%, 1);
   }
-
-  .figma {
+  .full-stack {
+    display: flex;
+    align-items: flex-start;
+    margin-left: -2.5rem;
+  }
+  .full-stack .figma {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
