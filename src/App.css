@@ -770,3 +770,9 @@ header .login-link {
     box-shadow: 0.5px 0.4px 5px 0.1px gold;
   }
 }
+/* phone screen detail resume */
+@media screen and (max-width: 600px) {
+  .detail-resume-aside {
+    display: none;
+  }
+}
