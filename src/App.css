@@ -784,7 +784,7 @@ header .login-link {
     margin-left: 1%;
     grid-auto-flow: row;
     text-align: left;
-    width: 100%;
+    width: 90%;
   }
 
   .role {
@@ -814,9 +814,11 @@ header .login-link {
     overflow-y: scroll;
     overflow-x: none;
     height: 300px;
+    direction: rtl;
   }
 
   .course-experience::-webkit-scrollbar {
+    place-items: left;
     width: 0.5rem;
   }
   .course-experience::-webkit-scrollbar-track {
@@ -825,6 +827,7 @@ header .login-link {
   .course-experience::-webkit-scrollbar-thumb {
     background-color: green;
     border-radius: 0.5rem;
+    transform: rotate(90deg);
   }
 
   .course {
