@@ -814,6 +814,7 @@ header .login-link {
     overflow-y: scroll;
     overflow-x: none;
     height: 300px;
+    direction: rtl;
   }
 
   .course-experience::-webkit-scrollbar {
