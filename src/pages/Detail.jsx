@@ -9,7 +9,7 @@ export default function Detail() {
           Desire! That’s the one secret of every man’s career. Not education.
           Not being born with hidden talents. Desire.
         </p>
-        <div className="course-experience">
+        <div className="course-experience" data-simplebar>
           <div className="course">
             <h1 className="courseName">CSS</h1>
             <div className="project-info">
