@@ -235,6 +235,11 @@ header .login-link {
     flex: 90%;
     max-width: 90%;
   }
+  img {
+    width: 270px;
+    height: 250px;
+    object-fit: cover;
+  }
   .photo-container {
     background: lightpink;
     padding-bottom: 1rem;
