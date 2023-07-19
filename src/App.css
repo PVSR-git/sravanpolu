@@ -738,7 +738,7 @@ header .login-link {
 @media screen and (max-width: 600px) {
   .footer-content {
     display: flex;
-    padding: 20px;
+    padding: 15px;
     background-color: #ffc8dd;
     color: black;
     font-weight: 700;
@@ -758,7 +758,7 @@ header .login-link {
   .footer-logo {
     display: flex;
     align-items: flex-start;
-    margin-left: 33%;
+    margin-left: 12%;
     display: block;
   }
   .footer-img {
