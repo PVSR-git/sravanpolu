@@ -232,11 +232,12 @@ header .login-link {
 }
 @media screen and (max-width: 600px) {
   .photo-sravan {
-    flex: 100%;
-    max-width: 100%;
+    flex: 90%;
+    max-width: 90%;
   }
   .photo-container {
     background: lightpink;
+    padding-bottom: 1rem;
   }
 }
 
