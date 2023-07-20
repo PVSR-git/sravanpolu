@@ -626,12 +626,7 @@ header .login-link {
   flex-direction: column;
 }
 .footer-img {
-  border-radius: 10%;
-  object-fit: cover;
-
-  width: 4rem;
-  height: 4rem;
-  box-shadow: 0.5px 0.4px 5px 0.1px gold;
+  display: none;
 }
 .phone-number {
   display: flex;
