@@ -618,6 +618,11 @@ header .login-link {
   border-radius: 0.2rem;
   color: #ff8c38;
 }
+@media only screen and (max-width: 600px) {
+  .login-container h1 {
+    font-size: 19px;
+  }
+}
 
 /* FOOTER */
 .footer-content {
