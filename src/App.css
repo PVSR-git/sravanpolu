@@ -622,6 +622,16 @@ header .login-link {
   .login-container h1 {
     font-size: 19px;
   }
+  .login-container {
+    margin-top: 2rem;
+  }
+  .login-form {
+    margin-top: 1.5rem;
+  }
+  .login-container button {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
 }
 
 /* FOOTER */
