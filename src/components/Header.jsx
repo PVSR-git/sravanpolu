@@ -20,7 +20,12 @@ export default function Header() {
         {/* <button className="menu-bar">
           <img src="/svg/menu-bar.svg" alt="Menu" />
         </button> */}
-        <nav>
+
+        <nav id="menu">
+          <label for="menu-toggle" id="menu-icon">
+            &#9776;
+          </label>
+          <input type="checkbox" id="menu-toggle" />
           <div className="information-user">
             <NavLink
               to="/"
