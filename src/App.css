@@ -173,7 +173,7 @@ header .login-link {
     background: pink;
     border-radius: 5px;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
   }
   .login-link {
     margin-left: 5rem;
