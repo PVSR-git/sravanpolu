@@ -118,9 +118,12 @@ header .login-link {
 /* CSS for portable phones (up to 600 pixels wide) */
 @media only screen and (max-width: 600px) {
   header {
+    display: flex;
     width: auto;
 
-    padding-top: 1rem;
+    padding-top: 1.5rem;
+    margin-top: 0rem;
+
     box-shadow: 0.5px 0.4px 5px 0.1px gold;
   }
   .header-items {
@@ -129,15 +132,21 @@ header .login-link {
     align-items: center;
     justify-content: start;
     padding-block: 10px;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
+
   .site-img {
     margin-left: -1rem;
-    width: 4rem;
-    height: 4rem;
+    width: 6rem;
+    height: 6rem;
+    position: relative;
+    border-radius: 50%;
+    border-width: 4px;
+    border-style: solid;
+    border-color: gold red #fb6f92 blue;
     align-items: center;
     object-fit: cover;
-    box-shadow: 0.5px 0.4px 5px 0.1px gold;
+    box-shadow: none;
   }
   nav {
     flex-direction: column;
@@ -623,13 +632,13 @@ header .login-link {
     font-size: 19px;
   }
   .login-container {
-    margin-top: 2rem;
+    margin-top: 4rem;
   }
   .login-form {
-    margin-top: 1.5rem;
+    margin-top: 2rem;
   }
   .login-container button {
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
   }
 }
