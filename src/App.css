@@ -44,50 +44,27 @@ body {
 /* header */
 header {
   width: 100%;
-
   box-shadow: 0.5px 0.4px 5px 0.1px gold;
 }
 
 .header-items {
   height: 110px;
   display: flex;
+  margin-left: 0rem;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   padding-block: 8px;
   margin-bottom: 2rem;
-  padding: 1rem;
-}
-@media screen and (max-width: 800px) {
-  .header-items {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-@media screen and (max-width: 600px) {
-  .header-items {
-    flex: 100%;
-    max-width: 100%;
-  }
 }
 
 nav {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  margin-right: 15rem;
+  justify-content: space-between;
 }
-@media screen and (max-width: 800px) {
-  nav {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-@media screen and (max-width: 600px) {
-  nav {
-    flex: 100%;
-    max-width: 100%;
-  }
-}
+
 .stroke-white {
   stroke: #fff;
 }
@@ -95,7 +72,7 @@ nav a {
   margin-left: 0;
   font-weight: 600;
   padding: 5px 20px;
-
+  margin-right: 3rem;
   font-family: "Open Sans", sans-serif;
   text-decoration: none;
   color: white;
@@ -104,19 +81,13 @@ nav a {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-right: 50%;
+  margin-right: 20%;
   justify-content: space-between;
 }
 @media screen and (max-width: 800px) {
   .information-user {
     flex: 50%;
     max-width: 50%;
-  }
-}
-@media screen and (max-width: 600px) {
-  .information-user {
-    flex: 100%;
-    max-width: 100%;
   }
 }
 header a:hover {
@@ -128,6 +99,7 @@ header a:hover {
   border-radius: 10%;
   width: 4rem;
   height: 4rem;
+  margin-left: 8rem;
   object-fit: cover;
   box-shadow: 0.5px 0.4px 5px 0.1px gold;
 }
@@ -144,7 +116,40 @@ header .login-link {
   display: none;
 }
 /* CSS for portable phones (up to 600 pixels wide) */
-@media (max-width: 600px) {
+@media only screen and (max-width: 600px) {
+  header {
+    width: auto;
+
+    padding-top: 1rem;
+    box-shadow: 0.5px 0.4px 5px 0.1px gold;
+  }
+  .header-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding-block: 10px;
+    margin-bottom: 1rem;
+  }
+  .site-img {
+    margin-left: -1rem;
+    width: 4rem;
+    height: 4rem;
+    align-items: center;
+    object-fit: cover;
+    box-shadow: 0.5px 0.4px 5px 0.1px gold;
+  }
+  nav {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
+  }
+  nav a {
+    margin: 0.3rem 0;
+    margin-right: 0;
+    font-size: 14px; /* Adjust font size as needed */
+  }
   #menu-icon {
     display: block;
   }
@@ -153,6 +158,16 @@ header .login-link {
   }
   #menu-toggle:checked + div.information-user {
     display: flex;
+    position: absolute;
+    margin-top: 2.3rem;
+    margin-left: -3rem;
+    background: pink;
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .login-link {
+    margin-left: 5rem;
   }
 }
 
