@@ -403,6 +403,7 @@ header .login-link {
 
 .course {
   width: 28rem;
+  height: 18rem;
   border-radius: 0.25rem;
   background: var(--clr-primary-800);
   padding: 2rem;
