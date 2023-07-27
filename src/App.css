@@ -404,7 +404,7 @@ header .login-link {
 .course {
   width: 28rem;
   height: 18rem;
-  border-radius: 0.25rem;
+  border-radius: 3px 70px 30px;
   background: var(--clr-primary-800);
   padding: 2rem;
 }
@@ -464,7 +464,11 @@ header .login-link {
   flex-direction: column;
 }
 .My-info img {
-  border-radius: 50%;
+  border-radius: 50px 60px 0px 60px;
+  object-fit: cover;
+
+  width: 6rem;
+  height: auto;
   align-items: center;
 }
 .my-detail {
