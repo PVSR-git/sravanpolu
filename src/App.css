@@ -44,7 +44,7 @@ body {
 /* header */
 header {
   width: 100%;
-  box-shadow: 0.5px 0.4px 5px 0.1px gold;
+  box-shadow: 0.5px 2.5px 5px 0.1px gold;
 }
 
 .header-items {
@@ -101,7 +101,9 @@ header a:hover {
   height: 4rem;
   margin-left: 8rem;
   object-fit: cover;
-  box-shadow: 0.5px 0.4px 5px 0.1px gold;
+  border-width: 4px;
+  border-style: solid;
+  border-color: gold red #fb6f92 blue;
 }
 .site-img:hover {
   transform: scale(1.5);
@@ -124,7 +126,7 @@ header .login-link {
     padding-top: 1.5rem;
     margin-top: 0rem;
 
-    box-shadow: 0.5px 0.4px 5px 0.1px gold;
+    box-shadow: 0.5px 2px 5px 0.1px gold;
   }
   .header-items {
     display: flex;
